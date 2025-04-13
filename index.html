@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franco Mora - Proyecto Pagina Web</title>
+    <meta name="description" content="Franco Mora Proyecto Pagina Web">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado" role="banner">
+        <nav class="navegacion" aria-label="Navegación principal">
+            <a class="navegacion__enlace" href="#presentacion" aria-current="page">
+                <h2 class="navegacion__titulo">Proyecto Pagina Web</h2>
+            </a>
+            <ul class="enlaces">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#presentacion" aria-current="page">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#sobre-mi">Sobre Mi</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal" role="main">
+        <section class="presentacion" id="presentacion">
+            <div class="presentacion__contenedor_info">
+                <h1 class="presentacion__titulo">Franco Mora</h1>
+                <p class="presentacion__parrafo">Aprendiz del Infomatorio</p>
+            </div>
+            <div class="presentacion__contenedor_botones">
+                <a href="#sobre-mi" class="boton" role="button">Sobre Mi</a>
+                <a href="./Sobre mi.pdf" target="_blank" class="boton boton_oscuro" role="button" rel="noopener noreferrer">Sobre mi y Agradecimiento</a>
+            </div>
+        </section>
+
+        <article class="articulo sobre_mi" id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+            <h2 class="articulo__titulo" id="titulo-sobre-mi">Sobre Mi</h2>
+            <div class="articulo__contenedor_descripciones">
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen"
+                             src="./images/Imagen_Animada.jpeg"
+                             alt="Imagen Animada"
+                             loading="lazy"
+                             width="500"
+                             height="300">
+                    </div>
+                    <div class="seccion_descripcion__info">
+                        <h3 class="seccion_descripcion__titulo">Conociendome</h3>
+                        <p class="seccion_descripcion__parrafo">
+                           
+                            ¡Hola! Soy Franco. Me interesan la tecnología, la inteligencia artificial, 
+                            el derecho y la Fórmula 1. En mis tiempos libres experimento con el
+                             diseño gráfico y de video, y a veces también me pongo en modo emprendedor.
+                            Hoy soy alumno del Informatorio, con muchas ganas de seguir 
+                            aprendiendo y convertir ideas en proyectos reales.
+                            
+                        </p>
+                        <p class="seccion_descripcion__parrafo">
+                            Sé que están cansados del Ghibli, pero quería darle un toque gracioso y animado.
+                        </p>
+                       
+                    </div>
+                </section>
+
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__info">
+                        <h3 class="seccion_descripcion__titulo">Proyectos</h3>
+                        <p class="seccion_descripcion__parrafo">
+                            Me entusiasma seguir creciendo en conocimientos relacionados con la tecnología y poder aplicarlos en 
+                            la creación de contenido y publicidad. 
+                            Hoy empiezo a desarrollar ideas que antes no sabía cómo llevar a cabo, y eso me motiva aún más.
+                        </p>
+                        <p class="seccion_descripcion__parrafo">
+                            Agradezco la oportunidad de aprender, porque estos conocimientos no solo hacen 
+                            viables los proyectos, sino que también 
+                            me permiten conectar con personas que comparten este camino de aprendizaje.
+                        </p>
+                        
+                    </div>
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen"
+                             src="/images/Imagen_Pc.jpg"
+                             alt="Imagen Pc"
+                             loading="lazy"
+                             width="500"
+                             height="300">
+                    </div>
+                </section>
+            </div>
+        </article>
+
+        <article class="articulo proyectos" id="logros" aria-labelledby="titulo-logros">
+            <h2 class="articulo__titulo" id="titulo-logros">Hobbies y Mas </h2>
+            <div class="contenedor_tarjetas_grid">
+                <article class="tarjeta" aria-labelledby="titulo-logro-1">
+                    <img class="tarjeta__imagen" 
+                         src="./images/Edicion de Video.PNG" 
+                         alt="Imagen Edicion"
+                         loading="lazy"
+                         width="600"
+                         height="400">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo-logro-1">Mi lado creativo</h3>
+                        <span class="tarjeta__divisor" aria-hidden="true"></span>
+                        <p class="tarjeta__parrafo">
+                            Emprendedor en la creación de contenido, edición de imagen y video.
+                             Me gusta todo lo que tenga que ver con la filmación, la fotografía, el cine y también la música. 
+                            Son áreas que disfruto explorar y que complementan mi lado creativo.
+                        </p>
+                        <a href="#" class="boton boton_oscuro">Ver detalles</a>
+                    </div>
+                </article>
+
+                <article class="tarjeta" aria-labelledby="titulo-logro-2">
+                    <img class="tarjeta__imagen" 
+                         src="./images/Franco Colapinto Williams Llegada.PNG" 
+                         alt="Pasiones fuera de la pantalla"
+                         loading="lazy"
+                         width="600"
+                         height="400">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo-logro-2">La F1</h3>
+                        <span class="tarjeta__divisor" aria-hidden="true"></span>
+                        <p class="tarjeta__parrafo">
+                            Entre mis hobbies está el automovilismo, especialmente la Fórmula 1. 
+                            El año pasado fue emocionante para los argentinos, con nuestro propio representante en la categoría.
+                        </p>
+                        <a href="#" class="boton boton_oscuro">Ver detalles</a>
+                    </div>
+                </article>
+
+                <article class="tarjeta" aria-labelledby="titulo-logro-3">
+                    <img class="tarjeta__imagen" 
+                         src="./images/Tecnologia y politica.png" 
+                         alt="Tecnologia y Politica"
+                         loading="lazy"
+                         width="600"
+                         height="400">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo-logro-3">Tecnologia y Politica</h3>
+                        <span class="tarjeta__divisor" aria-hidden="true"></span>
+                        <p class="tarjeta__parrafo">
+                            Me apasiona la política, especialmente cómo la tecnología puede transformarla y mejorar la forma 
+                            en que interactuamos con el gobierno y las instituciones. Creo que la implementación de soluciones
+                            tecnológicas en la política tiene un gran potencial para hacerla más accesible, transparente y eficiente.
+                        </p>
+                        <a href="#" class="boton boton_oscuro">Ver detalles</a>
+                    </div>
+                </article>
+
+               
+    </main>
+
+    <footer class="pie_de_pagina" role="contentinfo">
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Redes Sociales</h4>
+            <ul class="enlaces enlaces_redes">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" 
+                       href="https://github.com/Francoamora" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <img class="enlaces__icono" 
+                             src="./images/Logo Github.png" 
+                             alt="GitHub"
+                             width="40"
+                             height="40">
+                    </a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" 
+                       href="https://www.instagram.com/Francoamora_/" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Instagram">
+                        <img class="enlaces__icono" 
+                             src="./images/Logo Insta.png" 
+                             alt="Instagram"
+                             width="40"
+                             height="40">
+                    </a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" 
+                       href="https://twitter.com/Godoymorita" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="X">
+                        <img class="enlaces__icono" 
+                             src="./images/Logo X.png" 
+                             alt="X"
+                             width="40"
+                             height="40">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Contacto</h4>
+            <ul class="enlaces enlaces_vertical">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" 
+                       href="mailto:contacto@francoagustinmoraa@gmail.com">
+                       francoagustinmoraa@gmail.com
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+            <ul class="enlaces enlaces_vertical">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#presentacion">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi">Sobre Mi</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#logros">Proyectos</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pie_de_pagina__copyright">
+            <p>&copy; 2024 Franco Mora. Todos los derechos reservados.</p>
+            <p>Proyecto de pagina web</p>
+        </div>
+    </footer>
+</body>
+</html>
